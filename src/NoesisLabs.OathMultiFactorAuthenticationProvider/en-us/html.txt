@@ -6,7 +6,7 @@
  <!-- End inputs are required by the presentation framework. -->
  <p id="pageIntroductionText">This content is provided by the OATH Muti Factor Authentication Provider.</p>
  <label for="tokenInput" class="block">Token</label>
- <input id="tokenInput" name="Token" type="text" maxlength="6" value="" class="text" placeholder="Token" />
+ <input id="tokenInput" name="Token" type="text" maxlength="6" value="" class="text" placeholder="Token" autocomplete="off" />
  <div id="submissionArea" class="submitMargin">
  <input id="submitButton" type="submit" name="Submit" value="Submit" onclick="return AuthPage.submitAnswer()"/>
  </div>
